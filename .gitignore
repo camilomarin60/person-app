@@ -1,0 +1,58 @@
+# ===========================================
+# PERSON MANAGEMENT SYSTEM - ROOT .gitignore
+# ===========================================
+
+# General project files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Project specific
+apps/person-api/target/
+apps/person-api/*.jar
+apps/person-api/*.war
+apps/person-api/*.h2.db
+apps/person-api/*.mv.db
+apps/person-api/*.trace.db
+apps/person-api/*.lock.db
+
+apps/person-frontend/.next/
+apps/person-frontend/out/
+apps/person-frontend/build/
+apps/person-frontend/node_modules/
